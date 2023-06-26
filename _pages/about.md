@@ -14,8 +14,8 @@ redirect_from:
 - Sep 2021 -   Now    : Admitted to study for a M.Sc. degree in Tsinghua University without entrance examination following professor Guoliang Li. -->
 
 ## Research Interest
-- DISTRIBUTED MACHINE LEARNING SYSTEM.
-- DATA-CENTRIC NETWORK TOPOLOGY OPTIMIZATION.
+- Distributed Machine Learning System.
+- Data-Centric Network Topology Optimization.
 
 
 <!-- 
