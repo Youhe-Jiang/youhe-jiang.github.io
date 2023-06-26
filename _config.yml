@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Beijing"
+locale                   : "Singapore"
 title                    : "Home Page"
 title_separator          : "-"
-name                     : &name "Jintao Zhang (张金涛)"
-description              : &description "Master student in the database group at Tsinghua University, supervised by Prof.[Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/index.html)."
+name                     : &name "Youhe Jiang"
+# description              : &description "Master student in the database group at Tsinghua University, supervised by Prof.[Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/index.html)."
 url                      : https://jt-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jt-zhang/jt-zhang.github.io"
+repository               : "Youhe-Jiang/youhe-jiang.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jintao Zhang (张金涛)"
-  avatar           : "profile.jpeg"
-  bio              : "Master student in the database group at Tsinghua University, supervised by Prof.[Guoliang Li]."
-  location         : "Beijing"
+  name             : "Youhe Jiang"
+  avatar           : "JYH_Photo.JPG"
+  # bio              : "Master student in the database group at Tsinghua University, supervised by Prof.[Guoliang Li]."
+  location         : "Singapore"
   # employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com.hk/citations?user=J3NTnmEAAAAJ&hl=zh-CN"
-  email            : "jtzhang6 AT gmail.com"
+  # googlescholar    : "https://scholar.google.com.hk/citations?user=J3NTnmEAAAAJ&hl=zh-CN"
+  email            : "youhejiang AT gmail.com"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   # uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jt-zhang"
+  github           : "Youhe-Jiang"
   google_plus      :
   keybase          :
   # instagram        : "jt_zhang6"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "jintao-zhang-57637a272"
+  # linkedin         : "jintao-zhang-57637a272"
   # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -111,7 +111,7 @@ author:
   tumblr           :
   # twitter          : "Winterice10"
   vine             :
-  weibo            : "u/6366064730"
+  # weibo            : "u/6366064730"
   xing             :
   youtube          :
   wikipedia        :
