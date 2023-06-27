@@ -20,11 +20,11 @@ You can just call me York.
 - Feb 2022 - Dec 2022 : Research intern at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/).
 - Jan 2023 -   Now    : Student at National University of Singapore.
 
-## Research interests:
+## Research interests
 - Distributed Machine Learning System.
 - Data-Centric Network Topology Optimization.
 
-## Projects:
+## Projects
 - [Bagua](https://github.com/BaguaSys/bagua): Bagua speeds up PyTorch.
 - [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel): Optimal Sharded Data Parallel for Distributed Deep Learning.
 - [Hetu](https://github.com/PKU-DAIR/Hetu): a high-performance distributed deep learning system targeting trillions of parameters DL model training.
