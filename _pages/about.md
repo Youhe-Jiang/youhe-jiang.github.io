@@ -10,14 +10,14 @@ redirect_from:
   - /about.html
 ---
 
-You can just call me York.
+## You can just call me York.
 
 ## Biography
 - Sep 2017 - Jun 2021 : Receive my B.Eng. degree from Xidian University;
-- Feb 2021 - Jun 2021 : Research intern at [Baidu Deep Learning Technology Platform](https://www.paddlepaddle.org.cn/), advised by Weibao Gong.
-- Jun 2021 - Jan 2022 : Research intern at Tsinghua University, advised by [Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
-- Jun 2021 - Jan 2022 : Research intern at [Kuaishou Technology](https://www.kuaishou.com/en) AI Platform, advised by [Xiangru Lian](https://shawnlian.com/).
-- Feb 2022 - Dec 2022 : Research intern at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/).
+- Feb 2021 - Jun 2021 : Research intern at [Baidu Deep Learning Technology Platform](https://www.paddlepaddle.org.cn/), advised by Weibao Gong;
+- Jun 2021 - Jan 2022 : Research intern at Tsinghua University, advised by [Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html);
+- Jun 2021 - Jan 2022 : Research intern at [Kuaishou Technology](https://www.kuaishou.com/en) AI Platform, advised by [Xiangru Lian](https://shawnlian.com/);
+- Feb 2022 - Dec 2022 : Research intern at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/);
 - Jan 2023 -   Now    : Student at National University of Singapore.
 
 ## Research interests
