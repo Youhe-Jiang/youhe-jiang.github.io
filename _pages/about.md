@@ -1,6 +1,9 @@
 ---
 permalink: /
-title: "About Me"
+title: "About"
+
+I received my B.Eng. degree in telecommunication engineering from Xidian University. I was a research intern at Baidu, Kwai, Tsinghua University, Peking Univeristy and Hong Kong University of Science and Technology.
+
 # title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "Home page"
 author_profile: true
@@ -13,9 +16,11 @@ redirect_from:
 - Sep 2017 - Jun 2021 : Receive my B.Sc. degree from Xidian University;
 - Sep 2021 -   Now    : Admitted to study for a M.Sc. degree in Tsinghua University without entrance examination following professor Guoliang Li. -->
 
-## Research Interest
+## Research
 - Distributed Machine Learning System.
+  - Projects: [Bagua](https://github.com/BaguaSys/bagua), [Galvatron](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron), [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel).
 - Data-Centric Network Topology Optimization.
+  - Projects: GenTree, 2D-HRA.
 
 
 <!-- 
