@@ -24,13 +24,6 @@ redirect_from:
 - Distributed Machine Learning System.
 - Data-Centric Network Topology Optimization.
 
-## Projects
-- [Bagua](https://github.com/BaguaSys/bagua): Bagua speeds up PyTorch.
-- [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel): Optimal Sharded Data Parallel for Distributed Deep Learning.
-- [Hetu](https://github.com/PKU-DAIR/Hetu): a high-performance distributed deep learning system targeting trillions of parameters DL model training.
-- [Galvatron](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron): Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism.
-- GenTree: a heuristic scheme that generates AllReduce algorithms for the most widely used type of topology for DML and HPC.
-
 
 
 <!-- 
