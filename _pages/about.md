@@ -10,17 +10,27 @@ redirect_from:
   - /about.html
 ---
 
-I received my B.Eng. degree in telecommunication engineering from Xidian University. I was a research intern at Baidu, Kwai, Tsinghua University, Peking Univeristy and Hong Kong University of Science and Technology.
+You can just call me York.
 
-<!-- ## Biography
-- Sep 2017 - Jun 2021 : Receive my B.Sc. degree from Xidian University;
-- Sep 2021 -   Now    : Admitted to study for a M.Sc. degree in Tsinghua University without entrance examination following professor Guoliang Li. -->
+## Biography
+- Sep 2017 - Jun 2021 : Receive my B.Eng. degree from Xidian University;
+- Feb 2021 - Jun 2021 : Research intern at [Baidu Deep Learning Technology Platform](https://www.paddlepaddle.org.cn/), advised by Weibao Gong.
+- Jun 2021 - Jan 2022 : Research intern at Tsinghua University, advised by [Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
+- Jun 2021 - Jan 2022 : Research intern at [Kuaishou Technology](https://www.kuaishou.com/en) AI Platform, advised by [Xiangru Lian](https://shawnlian.com/).
+- Feb 2022 - Dec 2022 : Research intern at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/).
+- Jan 2023 -   Now    : Student at National University of Singapore.
 
-## Research
+## Research interests:
 - Distributed Machine Learning System.
-  - Projects: [Bagua](https://github.com/BaguaSys/bagua), [Galvatron](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron), [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel).
 - Data-Centric Network Topology Optimization.
-  - Projects: GenTree, 2D-HRA.
+
+## Projects:
+- [Bagua](https://github.com/BaguaSys/bagua): Bagua speeds up PyTorch.
+- [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel): Optimal Sharded Data Parallel for Distributed Deep Learning.
+- [Hetu](https://github.com/PKU-DAIR/Hetu): a high-performance distributed deep learning system targeting trillions of parameters DL model training.
+- [Galvatron](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron): Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism.
+- GenTree: a heuristic scheme that generates AllReduce algorithms for the most widely used type of topology for DML and HPC.
+
 
 
 <!-- 
