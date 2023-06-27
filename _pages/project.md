@@ -10,7 +10,7 @@ Optimal Sharded Data Parallel (OSDP), an automated parallel training system that
 ![image](https://github.com/Youhe-Jiang/youhe-jiang.github.io/assets/85312798/ea25664c-d745-4334-8352-f4ba9149f7ee)
 
 ---
-# [Galvatron](https://github.com/PKU-DAIR/Hetu/tools/Galvatron)
+# [Galvatron](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron)
 A new system framework that incorporates multiple popular parallelism dimensions and automatically finds the most efficient hybrid parallelism strategy.
 ![image](https://github.com/Youhe-Jiang/youhe-jiang.github.io/assets/85312798/4161f789-3e30-414f-8002-26f735a20a74)
 
