@@ -2,8 +2,6 @@
 permalink: /
 title: "About"
 
-I received my B.Eng. degree in telecommunication engineering from Xidian University. I was a research intern at Baidu, Kwai, Tsinghua University, Peking Univeristy and Hong Kong University of Science and Technology.
-
 # title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "Home page"
 author_profile: true
@@ -11,6 +9,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+I received my B.Eng. degree in telecommunication engineering from Xidian University. I was a research intern at Baidu, Kwai, Tsinghua University, Peking Univeristy and Hong Kong University of Science and Technology.
 
 <!-- ## Biography
 - Sep 2017 - Jun 2021 : Receive my B.Sc. degree from Xidian University;
