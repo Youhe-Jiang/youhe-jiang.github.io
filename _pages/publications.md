@@ -16,13 +16,13 @@ Yujie Wang\*, **Youhe Jiang**\*, Xupeng Miao, Fangcheng Fu, Xiaonan Nie, Bin Cui
 **OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning**  
 **Youhe Jiang**, Fangcheng Fu, Xupeng Miao, Xiaonan Nie, Bin Cui  
 <span style="color:green; font-style:italic">IJCAI 2023</span>  
-| [paper](https://arxiv.org/abs/2209.13258)
+| [paper](https://arxiv.org/pdf/2209.13258.pdf)
 | [code](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel) |
 
 **Galvatron: Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism**  
 Xupeng Miao\*, Yujie Wang\*, **Youhe Jiang**\*, Chunan Shi, Xiaonan Nie, Hailin Zhang, Bin Cui    
 <span style="color:green; font-style:italic">VLDB 2023</span>  
-| [paper](https://arxiv.org/abs/2211.13878)
+| [paper](https://arxiv.org/pdf/2211.13878.pdf)
 | [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
 
 **OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning**  
