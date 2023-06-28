@@ -34,5 +34,5 @@ Xupeng Miao\*, Yujie Wang\*, **Youhe Jiang**\*, Chunan Shi, Xiaonan Nie, Hailin 
 **2D-HRA: Two-Dimensional Hierarchical Ring-Based All-Reduce Algorithm in Large-Scale Distributed Machine Learning**  
 **Youhe Jiang**, Huaxi Gu, Yunfeng Lu, Xiaoshan Yu  
 <span style="color:green; font-style:italic">IEEE</span>  
-| [paper](https://ieeexplore.ieee.org/document/9211480)
+| [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9211480)
 | [code]() |
