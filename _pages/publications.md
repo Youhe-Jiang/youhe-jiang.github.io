@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 ---
-(* denotes equal contributions)
+(* denotes equal contributions)  
 **Improving Automatic Parallel Training via Balanced Memory Workload Optimization**  
 Yujie Wang\*, **Youhe Jiang**\*, Xupeng Miao, Fangcheng Fu, Xiaonan Nie, Bin Cui    
 <span style="color:green; font-style:italic">arxiv</span>   
