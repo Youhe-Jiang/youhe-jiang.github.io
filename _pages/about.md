@@ -12,7 +12,7 @@ redirect_from:
 
 ## You can just call me York.
 
-<!-- 
+
 ## Biography
 - Sep 2017 - Jun 2021 : Receive my B.Eng. degree from Xidian University, advised by [Huaxi Gu](https://web.xidian.edu.cn/hxgu/en/index.html);
 - Feb 2021 - Jun 2021 : Research intern at [Baidu Deep Learning Technology Platform](https://www.paddlepaddle.org.cn/), advised by Weibao Gong;
@@ -23,7 +23,7 @@ redirect_from:
 
 ## Research interests
 - Distributed Machine Learning System.
-- Data-Centric Network Topology Optimization. -->
+- Data-Centric Network Topology Optimization.
 
 
 <!-- 
