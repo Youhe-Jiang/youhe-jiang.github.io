@@ -11,8 +11,8 @@ author_profile: true
 **Improving Automatic Parallel Training via Balanced Memory Workload Optimization**  
 Yujie Wang\*, **Youhe Jiang**\*, Xupeng Miao, Fangcheng Fu, Xiaonan Nie, Bin Cui    
 <span style="color:green; font-style:italic">arxiv</span>   
-| [paper]()
-| [code]() |
+| [paper](https://arxiv.org/pdf/2307.02031.pdf)
+| [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
 
 **OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning**  
 **Youhe Jiang**, Fangcheng Fu, Xupeng Miao, Xiaonan Nie, Bin Cui  
