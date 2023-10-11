@@ -19,6 +19,7 @@ redirect_from:
 - Jun 2021 - Jan 2022 : Research intern at Tsinghua University, advised by [Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html);
 - Jun 2021 - Jan 2022 : Research intern at [Kuaishou Technology](https://www.kuaishou.com/en) AI Platform, advised by [Xiangru Lian](https://shawnlian.com/);
 - Feb 2022 - Dec 2022 : Research intern at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/);
+- May 2023 -   Now    : Research intern at Hong Kong University of Science and Technology, advised by [Binhang Yuan](https://binhangyuan.github.io/site/);
 - Jan 2023 -   Now    : Student at National University of Singapore.
 
 ## Research interests
