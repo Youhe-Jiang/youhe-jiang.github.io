@@ -8,7 +8,7 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
-**HexGen: Generative Inference of Foundation Model over Heterogeneous Decentralized Environment**
+**HexGen: Generative Inference of Foundation Model over Heterogeneous Decentralized Environment**  
 **Youhe Jiang**\*, Ran Yan\*, Xiaozhe Yao\*, Beidi Chen, Binhang Yuan
 <span style="color:green; font-style:italic">arxiv</span>
 | [paper](https://arxiv.org/pdf/2311.11514.pdf)
