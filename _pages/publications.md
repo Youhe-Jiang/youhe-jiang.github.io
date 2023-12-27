@@ -12,7 +12,7 @@ author_profile: true
 **Youhe Jiang**\*, Ran Yan\*, Xiaozhe Yao\*, Beidi Chen, Binhang Yuan   
 <span style="color:green; font-style:italic">arxiv</span>   
 | [paper](https://arxiv.org/pdf/2311.11514.pdf)
-| [code]() |
+| [code](https://github.com/Relaxed-System-Lab/HexGen/tree/main) |
 
 **Improving Automatic Parallel Training via Balanced Memory Workload Optimization**  
 Yujie Wang\*, **Youhe Jiang**\*, Xupeng Miao, Fangcheng Fu, Xiaonan Nie, Bin Cui    
