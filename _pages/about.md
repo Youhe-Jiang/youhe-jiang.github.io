@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 ## You can just call me York.
-Incoming doctoral student of Computer Science at University of Cambridge, advised by [Prof. Dr. Eiko Yoneki](https://www.cl.cam.ac.uk/~ey204/) (starting Jan 2024).
+Doctoral student of Computer Science at University of Cambridge, advised by [Prof. Dr. Eiko Yoneki](https://www.cl.cam.ac.uk/~ey204/). Research Assistant of Computer Science and Engineering at HKUST, advised by [Prof. Dr. Binhang Yuan](https://binhangyuan.github.io/site/).
 
 ## Biography
 - Sep 2017 - Jun 2021 : Receive my B.Eng. degree from Xidian University, advised by [Huaxi Gu](https://web.xidian.edu.cn/hxgu/en/index.html);
@@ -19,8 +19,8 @@ Incoming doctoral student of Computer Science at University of Cambridge, advise
 - Jun 2021 - Jan 2022 : Research intern at Tsinghua University, advised by [Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html);
 - Jun 2021 - Jan 2022 : Research intern at [Kuaishou Technology](https://www.kuaishou.com/en) AI Platform, advised by [Xiangru Lian](https://shawnlian.com/);
 - Feb 2022 - Dec 2022 : Research intern at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/);
+- Jan 2023 - Dec 2023 : Receive my M.Sc. degree from National University of Singapore.
 - May 2023 -   Now    : Research intern at Hong Kong University of Science and Technology, advised by [Binhang Yuan](https://binhangyuan.github.io/site/);
-- Jan 2023 -   Now    : Student at National University of Singapore.
 
 ## Research interests
 - Distributed Machine Learning System.
