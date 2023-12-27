@@ -5,6 +5,10 @@ author_profile: true
 ---
 
 ---
+# [HexGen](https://github.com/Relaxed-System-Lab/HexGen/tree/main)
+HexGen, a versatile framework capable of facilitating Llama-2 inference, integrating hybrid model parallelism along with an automated mechanism for request dispatch.
+
+---
 # [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel)
 Optimal Sharded Data Parallel (OSDP), an automated parallel training system that combines the advantages from both data and model parallelism.
 ![image](https://github.com/Youhe-Jiang/youhe-jiang.github.io/assets/85312798/ea25664c-d745-4334-8352-f4ba9149f7ee)
