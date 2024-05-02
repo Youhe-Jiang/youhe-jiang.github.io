@@ -9,14 +9,14 @@ author_profile: true
 (* denotes equal contributions)  
 
 **HexGen: Generative Inference of Foundation Model over Heterogeneous Decentralized Environment**  
-**Youhe Jiang**\*, Ran Yan\*, Xiaozhe Yao\*, Beidi Chen, Binhang Yuan   
-<span style="color:green; font-style:italic">arxiv</span>   
+**Youhe Jiang**\*, Ran Yan\*, Xiaozhe Yao\*, Yang Zhou, Beidi Chen, Binhang Yuan   
+<span style="color:green; font-style:italic">ICML 2024</span>   
 | [paper](https://arxiv.org/pdf/2311.11514.pdf)
 | [code](https://github.com/Relaxed-System-Lab/HexGen/tree/main) |
 
 **Improving Automatic Parallel Training via Balanced Memory Workload Optimization**  
-Yujie Wang\*, **Youhe Jiang**\*, Xupeng Miao, Fangcheng Fu, Xiaonan Nie, Bin Cui    
-<span style="color:green; font-style:italic">arxiv</span>   
+Yujie Wang, **Youhe Jiang**, Xupeng Miao, Fangcheng Fu, Shenhan Zhu, Xiaonan Nie, Yaofeng Tu, Bin Cui    
+<span style="color:green; font-style:italic">TKDE 2024</span>   
 | [paper](https://arxiv.org/pdf/2307.02031.pdf)
 | [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
 
