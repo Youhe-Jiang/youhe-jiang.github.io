@@ -7,6 +7,7 @@ author_profile: true
 ---
 # [HexGen](https://github.com/Relaxed-System-Lab/HexGen/tree/main)
 HexGen, a versatile framework capable of facilitating Llama-2 inference, integrating hybrid model parallelism along with an automated mechanism for request dispatch.
+[university_title_pic.pdf](https://github.com/Youhe-Jiang/youhe-jiang.github.io/files/15200981/university_title_pic.pdf)
 
 ---
 # [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel)
