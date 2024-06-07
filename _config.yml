@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Singapore"
+locale                   : "Cambridgeshire"
 title                    : "Home Page"
 title_separator          : "-"
 name                     : &name "Youhe Jiang"
@@ -83,7 +83,7 @@ author:
   name             : "Youhe Jiang"
   avatar           : "youhe.jpeg"
   # bio              : "Master student in the database group at Tsinghua University, supervised by Prof.[Guoliang Li]."
-  location         : "Singapore"
+  location         : "Cambridgeshire"
   # employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "https://scholar.google.com.hk/citations?user=J3NTnmEAAAAJ&hl=zh-CN"
