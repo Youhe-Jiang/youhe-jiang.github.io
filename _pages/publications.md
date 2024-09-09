@@ -9,7 +9,7 @@ author_profile: true
 (* denotes equal contributions)  
 
 **Revisiting the Time Cost Model of AllReduce**  
-Dian Xiong, Li Chen, Youhe Jiang, Dan Li, Shuai Wang, Songtao Wang  
+Dian Xiong, Li Chen, **Youhe Jiang**, Dan Li, Shuai Wang, Songtao Wang  
 <span style="color:green; font-style:italic">Arxiv</span>   
 | [paper](https://arxiv.org/pdf/2409.04202)
 | [code]() |
