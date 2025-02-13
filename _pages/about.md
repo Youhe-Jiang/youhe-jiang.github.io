@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 ---
 
-## You can just call me York.
+## About me
 Doctoral student of Computer Science at University of Cambridge, advised by [Prof. Dr. Eiko Yoneki](https://www.cl.cam.ac.uk/~ey204/). Research Assistant of Computer Science and Engineering at HKUST, advised by [Prof. Dr. Binhang Yuan](https://binhangyuan.github.io/site/).
 
 ## Biography
