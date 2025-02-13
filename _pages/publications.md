@@ -26,29 +26,11 @@ author_profile: true
 | [paper]()
 | [code]() |
 
-**Revisiting the Time Cost Model of AllReduce**  
-Dian Xiong, Li Chen, **Youhe Jiang**, Dan Li, Shuai Wang, Songtao Wang  
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper](https://arxiv.org/pdf/2409.04202)
-| [code]() |
-
-**FlashFlex: Accommodating Large Language Model Training over Heterogeneous Environment**  
-Ran Yan\*, **Youhe Jiang**\*, Wangcheng Tao, Xiaonan Nie, Bin Cui, Binhang Yuan   
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper](https://arxiv.org/pdf/2409.01143)
-| [code](https://github.com/Relaxed-System-Lab/FlashFlex) |
-
 **HexGen: Generative Inference of Foundation Model over Heterogeneous Decentralized Environment**  
 **Youhe Jiang**\*, Ran Yan\*, Xiaozhe Yao\*, Yang Zhou, Beidi Chen, Binhang Yuan   
 <span style="color:green; font-style:italic">**ICML 2024**</span>   
 | [paper](https://arxiv.org/pdf/2311.11514.pdf)
 | [code](https://github.com/Relaxed-System-Lab/HexGen/tree/main) |
-
-**Improving Automatic Parallel Training via Balanced Memory Workload Optimization**  
-Yujie Wang, **Youhe Jiang**, Xupeng Miao, Fangcheng Fu, Shenhan Zhu, Xiaonan Nie, Yaofeng Tu, Bin Cui    
-<span style="color:green; font-style:italic">**TKDE 2024**</span>   
-| [paper](https://arxiv.org/pdf/2307.02031.pdf)
-| [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
 
 **OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning**  
 **Youhe Jiang**, Fangcheng Fu, Xupeng Miao, Xiaonan Nie, Bin Cui  
@@ -61,6 +43,24 @@ Xupeng Miao\*, Yujie Wang\*, **Youhe Jiang**\*, Chunan Shi, Xiaonan Nie, Hailin 
 <span style="color:green; font-style:italic">**VLDB 2023**</span>  
 | [paper](https://arxiv.org/pdf/2211.13878.pdf)
 | [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
+
+**Improving Automatic Parallel Training via Balanced Memory Workload Optimization**  
+Yujie Wang, **Youhe Jiang**, Xupeng Miao, Fangcheng Fu, Shenhan Zhu, Xiaonan Nie, Yaofeng Tu, Bin Cui    
+<span style="color:green; font-style:italic">**TKDE 2024**</span>   
+| [paper](https://arxiv.org/pdf/2307.02031.pdf)
+| [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
+
+**Revisiting the Time Cost Model of AllReduce**  
+Dian Xiong, Li Chen, **Youhe Jiang**, Dan Li, Shuai Wang, Songtao Wang  
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper](https://arxiv.org/pdf/2409.04202)
+| [code]() |
+
+**FlashFlex: Accommodating Large Language Model Training over Heterogeneous Environment**  
+Ran Yan\*, **Youhe Jiang**\*, Wangcheng Tao, Xiaonan Nie, Bin Cui, Binhang Yuan   
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper](https://arxiv.org/pdf/2409.01143)
+| [code](https://github.com/Relaxed-System-Lab/FlashFlex) |
 
 **OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning**  
 **Youhe Jiang**, Xupeng Miao, Xiaonan Nie, Bin Cui   
