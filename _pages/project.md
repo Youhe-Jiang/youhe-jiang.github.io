@@ -5,22 +5,6 @@ author_profile: true
 ---
 
 ---
-# [HexGen](https://github.com/Relaxed-System-Lab/HexGen/tree/main)
-HexGen, a versatile framework capable of facilitating Llama-2 inference, integrating hybrid model parallelism along with an automated mechanism for request dispatch.
-
-<img width="584" alt="image" src="https://github.com/Youhe-Jiang/youhe-jiang.github.io/assets/85312798/12ca540c-f595-4107-8beb-65dc25fa59f6">
-
----
-# [OSDP](https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel)
-Optimal Sharded Data Parallel (OSDP), an automated parallel training system that combines the advantages from both data and model parallelism.
-![image](https://github.com/Youhe-Jiang/youhe-jiang.github.io/assets/85312798/ea25664c-d745-4334-8352-f4ba9149f7ee)
-
----
-# [Galvatron](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron)
-A new system framework that incorporates multiple popular parallelism dimensions and automatically finds the most efficient hybrid parallelism strategy.
-![image](https://github.com/Youhe-Jiang/youhe-jiang.github.io/assets/85312798/4161f789-3e30-414f-8002-26f735a20a74)
-
----
 # [Hetu](https://github.com/PKU-DAIR/Hetu)
 Hetu is a high-performance distributed deep learning system targeting trillions of parameters DL model training, developed by DAIR Lab at Peking University. It takes account of both high availability in industry and innovation in academia.
 ![image](https://github.com/Youhe-Jiang/youhe-jiang.github.io/assets/85312798/77c5f720-99b0-4a4d-9bf5-34b0d07a2785)
