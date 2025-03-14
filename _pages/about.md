@@ -16,7 +16,6 @@ Doctoral student of Computer Science at University of Cambridge, advised by [Pro
 ## Biography
 - Sep 2017 - Jun 2021 : Receive my B.Eng. degree from Xidian University, advised by [Huaxi Gu](https://web.xidian.edu.cn/hxgu/en/index.html);
 - Jan 2023 - Dec 2023 : Receive my M.Sc. degree from National University of Singapore.
-- Jan 2024 - Dec 2024 : Research intern at Hong Kong University of Science and Technology, advised by [Binhang Yuan](https://binhangyuan.github.io/site/);
 
 ## Research interests
 - Distributed Machine Learning System.
