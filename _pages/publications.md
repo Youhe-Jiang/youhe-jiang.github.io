@@ -8,6 +8,12 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
+**HexiScale: Accommodating Large Language Model Training over Heterogeneous Environment**  
+Ran Yan\*, **Youhe Jiang**\*, Xiaonan Nie, Fangcheng Fu, Bin Cui, Binhang Yuan   
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper]()
+| [code]() |
+
 **Demystifying Cost-Efficiency in LLM Serving over Heterogeneous GPUs**  
 **Youhe Jiang**\*, Fangcheng Fu\*, Xiaozhe Yao, Guoliang He, Xupeng Miao, Ana Klimovic, Bin Cui, Binhang Yuan, Eiko Yoneki  
 <span style="color:green; font-style:italic">**Arxiv**</span>   
@@ -55,12 +61,6 @@ Dian Xiong, Li Chen, **Youhe Jiang**, Dan Li, Shuai Wang, Songtao Wang
 <span style="color:green; font-style:italic">**Arxiv**</span>   
 | [paper](https://arxiv.org/pdf/2409.04202)
 | [code]() |
-
-**FlashFlex: Accommodating Large Language Model Training over Heterogeneous Environment**  
-Ran Yan\*, **Youhe Jiang**\*, Wangcheng Tao, Xiaonan Nie, Bin Cui, Binhang Yuan   
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper](https://arxiv.org/pdf/2409.01143)
-| [code](https://github.com/Relaxed-System-Lab/FlashFlex) |
 
 **OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning**  
 **Youhe Jiang**, Xupeng Miao, Xiaonan Nie, Bin Cui   
