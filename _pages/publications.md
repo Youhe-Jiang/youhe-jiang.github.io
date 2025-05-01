@@ -8,15 +8,9 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
-**HexiScale: Accommodating Large Language Model Training over Heterogeneous Environment**  
-Ran Yan\*, **Youhe Jiang**\*, Xiaonan Nie, Fangcheng Fu, Bin Cui, Binhang Yuan   
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper]()
-| [code]() |
-
 **Demystifying Cost-Efficiency in LLM Serving over Heterogeneous GPUs**  
 **Youhe Jiang**\*, Fangcheng Fu\*, Xiaozhe Yao, Guoliang He, Xupeng Miao, Ana Klimovic, Bin Cui, Binhang Yuan, Eiko Yoneki  
-<span style="color:green; font-style:italic">**Arxiv**</span>   
+<span style="color:green; font-style:italic">**ICML 2025**</span>   
 | [paper]()
 | [code]() |
 
@@ -55,6 +49,12 @@ Yujie Wang, **Youhe Jiang**, Xupeng Miao, Fangcheng Fu, Shenhan Zhu, Xiaonan Nie
 <span style="color:green; font-style:italic">**TKDE 2024**</span>   
 | [paper](https://arxiv.org/pdf/2307.02031.pdf)
 | [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
+
+**HexiScale: Accommodating Large Language Model Training over Heterogeneous Environment**  
+Ran Yan\*, **Youhe Jiang**\*, Xiaonan Nie, Fangcheng Fu, Bin Cui, Binhang Yuan   
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper]()
+| [code]() |
 
 **Revisiting the Time Cost Model of AllReduce**  
 Dian Xiong, Li Chen, **Youhe Jiang**, Dan Li, Shuai Wang, Songtao Wang  
