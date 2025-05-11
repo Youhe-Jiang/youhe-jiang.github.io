@@ -8,7 +8,7 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
-**Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**
+**Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**  
 You Peng\*, **Youhe Jiang**\*, Chen Wang, Binhang Yuan  
 <span style="color:green; font-style:italic">**Arxiv**</span>   
 | [paper]()
