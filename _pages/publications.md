@@ -8,6 +8,12 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
+**Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**
+You Peng\*, **Youhe Jiang**\*, Chen Wang, Binhang Yuan 
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper]()
+| [code]() |
+
 **Demystifying Cost-Efficiency in LLM Serving over Heterogeneous GPUs**  
 **Youhe Jiang**\*, Fangcheng Fu\*, Xiaozhe Yao, Guoliang He, Xupeng Miao, Ana Klimovic, Bin Cui, Binhang Yuan, Eiko Yoneki  
 <span style="color:green; font-style:italic">**ICML 2025**</span>   
