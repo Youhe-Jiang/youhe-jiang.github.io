@@ -8,6 +8,12 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
+**Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately**  
+Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu 
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper]()
+| [code]() |
+
 **Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**  
 You Peng\*, **Youhe Jiang**\*, Chen Wang, Binhang Yuan  
 <span style="color:green; font-style:italic">**Arxiv**</span>   
