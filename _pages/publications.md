@@ -9,7 +9,7 @@ author_profile: true
 (* denotes equal contributions)  
 
 **Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately**  
-Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu 
+Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu   
 <span style="color:green; font-style:italic">**Arxiv**</span>   
 | [paper]()
 | [code]() |
