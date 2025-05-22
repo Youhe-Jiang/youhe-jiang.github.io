@@ -8,6 +8,13 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
+
+**Efficient Pre-Training of LLMs via Topology-Aware Communication Alignment on More Than 9600 GPUs**  
+Guoliang He\*, **Youhe Jiang**\*, Wencong Xiao, Jiang Kaihua, Shuguang Wang, Jun Wang, Du Zixian, Zhuo Jiang, Xinlei Zhang, Binhang Yuan, Eiko Yoneki   
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper]()
+| [code]() |
+
 **Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately**  
 Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu   
 <span style="color:green; font-style:italic">**Arxiv**</span>   
@@ -16,6 +23,12 @@ Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu
 
 **Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**  
 You Peng\*, **Youhe Jiang**\*, Chen Wang, Binhang Yuan  
+<span style="color:green; font-style:italic">**Arxiv**</span>   
+| [paper]()
+| [code]() |
+
+**HexiScale: Accommodating Large Language Model Training over Heterogeneous Environment**  
+Ran Yan\*, **Youhe Jiang**\*, Xiaonan Nie, Fangcheng Fu, Bin Cui, Binhang Yuan   
 <span style="color:green; font-style:italic">**Arxiv**</span>   
 | [paper]()
 | [code]() |
@@ -61,12 +74,6 @@ Yujie Wang, **Youhe Jiang**, Xupeng Miao, Fangcheng Fu, Shenhan Zhu, Xiaonan Nie
 <span style="color:green; font-style:italic">**TKDE 2024**</span>   
 | [paper](https://arxiv.org/pdf/2307.02031.pdf)
 | [code](https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron) |
-
-**HexiScale: Accommodating Large Language Model Training over Heterogeneous Environment**  
-Ran Yan\*, **Youhe Jiang**\*, Xiaonan Nie, Fangcheng Fu, Bin Cui, Binhang Yuan   
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper]()
-| [code]() |
 
 **Revisiting the Time Cost Model of AllReduce**  
 Dian Xiong, Li Chen, **Youhe Jiang**, Dan Li, Shuai Wang, Songtao Wang  
