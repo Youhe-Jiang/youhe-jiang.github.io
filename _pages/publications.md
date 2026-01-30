@@ -8,32 +8,44 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
+**BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization**
+Youhe Jiang, Fangcheng Fu, Eiko Yoneki   
+<span style="color:green; font-style:italic">**MLSys 2026**</span>   
+| [paper]()
+| [code]() |
+
+**FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel**
+Ran Yan\*, **Youhe Jiang**\*, Zhuoming Chen, Haohui Mai, Beidi Chen, Binhang Yuan   
+<span style="color:green; font-style:italic">**ICLR 2026**</span>   
+| [paper]()
+| [code]() |
+
 **Cascadia: A Cascade Serving System for Large Language Models**  
 **Youhe Jiang**\*, Fangcheng Fu\*, Wanru Zhao\*, Stephan Rabanser, Nicholas D. Lane, Binhang Yuan   
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper]()
-| [code]() |
-
-**Efficient Pre-Training of LLMs via Topology-Aware Communication Alignment on More Than 9600 GPUs**  
-Guoliang He\*, **Youhe Jiang**\*, Wencong Xiao, Jiang Kaihua, Shuguang Wang, Jun Wang, Du Zixian, Zhuo Jiang, Xinlei Zhang, Binhang Yuan, Eiko Yoneki   
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper]()
-| [code]() |
-
-**Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately**  
-Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu   
-<span style="color:green; font-style:italic">**Arxiv**</span>   
-| [paper]()
-| [code]() |
-
-**Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**  
-You Peng\*, **Youhe Jiang**\*, Chen Wang, Binhang Yuan  
-<span style="color:green; font-style:italic">**Arxiv**</span>   
+<span style="color:green; font-style:italic">**ICLR 2026**</span>   
 | [paper]()
 | [code]() |
 
 **HexiScale: Accommodating Large Language Model Training over Heterogeneous Environment**  
 Ran Yan\*, **Youhe Jiang**\*, Xiaonan Nie, Fangcheng Fu, Bin Cui, Binhang Yuan   
+<span style="color:green; font-style:italic">**MLSys 2026**</span>   
+| [paper]()
+| [code]() |
+
+**Efficient Pre-Training of LLMs via Topology-Aware Communication Alignment on More Than 9600 GPUs**  
+Guoliang He\*, **Youhe Jiang**\*, Wencong Xiao, Jiang Kaihua, Shuguang Wang, Jun Wang, Du Zixian, Zhuo Jiang, Xinlei Zhang, Binhang Yuan, Eiko Yoneki   
+<span style="color:green; font-style:italic">**NIPS 2025**</span>   
+| [paper]()
+| [code]() |
+
+**Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately**  
+Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu   
+<span style="color:green; font-style:italic">**FAISys 2025**</span>   
+| [paper]()
+| [code]() |
+
+**Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**  
+You Peng\*, **Youhe Jiang**\*, Chen Wang, Binhang Yuan  
 <span style="color:green; font-style:italic">**Arxiv**</span>   
 | [paper]()
 | [code]() |
