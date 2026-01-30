@@ -8,13 +8,13 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
-**BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization**
+**BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization**  
 Youhe Jiang, Fangcheng Fu, Eiko Yoneki   
 <span style="color:green; font-style:italic">**MLSys 2026**</span>   
 | [paper]()
 | [code]() |
 
-**FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel**
+**FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel**  
 Ran Yan\*, **Youhe Jiang**\*, Zhuoming Chen, Haohui Mai, Beidi Chen, Binhang Yuan   
 <span style="color:green; font-style:italic">**ICLR 2026**</span>   
 | [paper]()
