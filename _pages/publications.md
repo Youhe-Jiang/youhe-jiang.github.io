@@ -8,6 +8,12 @@ author_profile: true
 ---
 (* denotes equal contributions)  
 
+**Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**  
+You Peng\*, **Youhe Jiang**\*, Wenqi Jiang, Chen Wang, Binhang Yuan  
+<span style="color:green; font-style:italic">**ICDE 2026**</span>   
+| [paper]()
+| [code]() |
+
 **BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization**  
 Youhe Jiang, Fangcheng Fu, Eiko Yoneki   
 <span style="color:green; font-style:italic">**MLSys 2026**</span>   
@@ -41,12 +47,6 @@ Guoliang He\*, **Youhe Jiang**\*, Wencong Xiao, Jiang Kaihua, Shuguang Wang, Jun
 **Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately**  
 Yuhang Wang, **Youhe Jiang**, Bin Cui, Fangcheng Fu   
 <span style="color:green; font-style:italic">**FAISys 2025**</span>   
-| [paper]()
-| [code]() |
-
-**Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow**  
-You Peng\*, **Youhe Jiang**\*, Chen Wang, Binhang Yuan  
-<span style="color:green; font-style:italic">**Arxiv**</span>   
 | [paper]()
 | [code]() |
 
