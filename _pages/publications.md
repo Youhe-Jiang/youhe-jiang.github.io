@@ -15,7 +15,7 @@ You Peng\*, **Youhe Jiang**\*, Wenqi Jiang, Chen Wang, Binhang Yuan
 | [code]() |
 
 **BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization**  
-Youhe Jiang, Fangcheng Fu, Eiko Yoneki   
+**Youhe Jiang**, Fangcheng Fu, Eiko Yoneki   
 <span style="color:green; font-style:italic">**MLSys 2026**</span>   
 | [paper]()
 | [code]() |
