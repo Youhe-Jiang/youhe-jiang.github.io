@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youhe Jiang</title>
+  <meta name="description" content="PhD student at the University of Cambridge working on efficient systems for large-scale AI training and LLM serving.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fafafa;
+      --bg-card: #ffffff;
+      --text: #1a1a2e;
+      --text-secondary: #555770;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --border: #e5e7eb;
+      --radius: 16px;
+      --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+      --shadow-hover: 0 4px 16px rgba(0,0,0,0.08);
+      --max-width: 800px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 15px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* --- NAV --- */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(250,250,250,0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav .nav-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav .logo {
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--text);
+      text-decoration: none;
+    }
+    nav .nav-links { display: flex; gap: 28px; }
+    nav .nav-links a {
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      transition: color 0.2s;
+      letter-spacing: 0.01em;
+    }
+    nav .nav-links a:hover { color: var(--accent); }
+
+    /* --- MAIN --- */
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    section { padding: 80px 0; }
+    section:first-child { padding-top: 120px; }
+
+    /* --- HERO --- */
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+    }
+    .hero-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 3px solid var(--border);
+    }
+    .hero-text h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+    .hero-text .tagline {
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 8px;
+      letter-spacing: 0.02em;
+    }
+    .hero-text .bio {
+      margin-top: 16px;
+      color: var(--text-secondary);
+      font-size: 15px;
+      line-height: 1.75;
+    }
+    .hero-links {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .hero-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      color: var(--text);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+    }
+    .hero-links a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: var(--shadow-hover);
+    }
+
+    /* --- SECTION HEADERS --- */
+    .section-title {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* --- RESEARCH INTERESTS --- */
+    .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .interests span {
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    /* --- PUBLICATIONS --- */
+    .pub-list { list-style: none; }
+    .pub-item {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .pub-item:last-child { border-bottom: none; }
+    .pub-venue {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .pub-title {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+    .pub-authors {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-top: 4px;
+      line-height: 1.5;
+    }
+    .pub-links {
+      margin-top: 8px;
+      display: flex;
+      gap: 10px;
+    }
+    .pub-links a {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 3px 10px;
+      border-radius: 6px;
+      background: var(--accent-soft);
+      transition: all 0.2s;
+    }
+    .pub-links a:hover { background: var(--accent); color: #fff; }
+
+    /* --- EXPERIENCE --- */
+    .exp-grid { display: flex; flex-direction: column; gap: 16px; }
+    .exp-card {
+      display: flex;
+      gap: 16px;
+      padding: 20px;
+      border-radius: var(--radius);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      transition: box-shadow 0.2s;
+    }
+    .exp-card:hover { box-shadow: var(--shadow-hover); }
+    .exp-date {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      min-width: 100px;
+      padding-top: 2px;
+    }
+    .exp-info h3 {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .exp-info p {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+
+    /* --- PROJECTS --- */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .project-card {
+      padding: 20px;
+      border-radius: var(--radius);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .project-card:hover {
+      box-shadow: var(--shadow-hover);
+      border-color: var(--accent);
+    }
+    .project-card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .project-card .role {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+    }
+    .project-card p {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      padding: 48px 24px;
+      font-size: 13px;
+      color: var(--text-secondary);
+      border-top: 1px solid var(--border);
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* --- RESPONSIVE --- */
+    @media (max-width: 640px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+      }
+      .hero-photo { width: 120px; height: 120px; }
+      .hero-links { justify-content: center; }
+      .hero-text h1 { font-size: 26px; }
+      .project-grid { grid-template-columns: 1fr; }
+      section { padding: 60px 0; }
+      section:first-child { padding-top: 100px; }
+      nav .nav-links { gap: 16px; }
+      nav .nav-links a { font-size: 12px; }
+      .exp-card { flex-direction: column; gap: 4px; }
+      .exp-date { min-width: auto; }
+    }
+
+    /* --- SVG ICONS inline --- */
+    .icon {
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="logo">Youhe Jiang</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO / ABOUT -->
+  <section id="about">
+    <div class="hero">
+      <img src="images/youhe.jpeg" alt="Youhe Jiang" class="hero-photo">
+      <div class="hero-text">
+        <h1>Youhe Jiang</h1>
+        <div class="tagline">Distributed Systems &middot; LLM Serving &middot; Large-Scale Training</div>
+        <p class="bio">
+          PhD student in Computer Science at the <strong>University of Cambridge</strong>, advised by
+          <a href="https://www.cl.cam.ac.uk/~ey204/" style="color:var(--accent)">Dr. Eiko Yoneki</a>.
+          I build systems that make modern AI workloads more efficient at scale &mdash; spanning
+          LLM serving, heterogeneous GPU systems, distributed training, and communication-aware optimisation.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:yj367@cam.ac.uk">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email
+          </a>
+          <a href="https://github.com/Youhe-Jiang" target="_blank">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/youhejiang" target="_blank">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://scholar.google.com/citations?user=youhejiang" target="_blank">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            Scholar
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 48px;">
+      <h2 class="section-title">Research Interests</h2>
+      <div class="interests">
+        <span>LLM Serving</span>
+        <span>Heterogeneous Inference</span>
+        <span>Distributed Training</span>
+        <span>Communication-Efficient Optimisation</span>
+        <span>Decentralized AI Systems</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <h2 class="section-title">Selected Publications</h2>
+    <ul class="pub-list">
+      <li class="pub-item">
+        <div class="pub-venue">OSDI 2026</div>
+        <div class="pub-title">LLMFabric: Unifying Decentralized HPC Clusters for Heterogeneous LLM Serving</div>
+        <div class="pub-authors">X. Yao, <strong>Y. Jiang</strong>, I. Badanin, Q. Hu, B. Yuan, I. Schlag, E. Yoneki, A. Klimovic</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">MLSys 2026</div>
+        <div class="pub-title">BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization</div>
+        <div class="pub-authors"><strong>Y. Jiang</strong>, F. Fu, E. Yoneki</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">ICLR 2026</div>
+        <div class="pub-title">Cascadia: A Cascade Serving System for Large Language Models</div>
+        <div class="pub-authors"><strong>Y. Jiang</strong>, F. Fu, W. Zhao, S. Rabanser, J. Zhang, N.D. Lane, B. Yuan</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">ICDE 2026</div>
+        <div class="pub-title">Hexgen-Text2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflow</div>
+        <div class="pub-authors">Y. Peng*, <strong>Y. Jiang</strong>*, W. Jiang, C. Wang, B. Yuan</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">ICLR 2026</div>
+        <div class="pub-title">FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel</div>
+        <div class="pub-authors">R. Yan*, <strong>Y. Jiang</strong>*, Z. Chen, H. Mai, B. Chen, B. Yuan</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">MLSys 2026</div>
+        <div class="pub-title">HexiScale: Accommodating Large Language Model Training over Heterogeneous Environment</div>
+        <div class="pub-authors">R. Yan*, <strong>Y. Jiang</strong>*, X. Nie, F. Fu, B. Cui, B. Yuan</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">NeurIPS 2025</div>
+        <div class="pub-title">Efficient Pre-Training of LLMs via Topology-Aware Communication Alignment on 9600+ GPUs</div>
+        <div class="pub-authors">G. He*, <strong>Y. Jiang</strong>*, W. Xiao, K. Jiang, S. Wang, J. Wang, Z. Du, Z. Jiang, X. Zhang, B. Yuan, E. Yoneki</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">ICML 2025</div>
+        <div class="pub-title">Demystifying Cost-Efficiency in LLM Serving over Heterogeneous GPUs</div>
+        <div class="pub-authors"><strong>Y. Jiang</strong>, F. Fu, X. Yao, G. He, X. Miao, A. Klimovic, B. Cui, B. Yuan, E. Yoneki</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">MLSys 2025</div>
+        <div class="pub-title">ThunderServe: High-performance and Cost-efficient LLM Serving in Cloud Environments</div>
+        <div class="pub-authors"><strong>Y. Jiang</strong>, F. Fu, X. Yao, T. Wang, A. Klimovic, E. Yoneki</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">ICLR 2025</div>
+        <div class="pub-title">HexGen-2: Disaggregated Generative Inference of LLMs in Heterogeneous Environment</div>
+        <div class="pub-authors"><strong>Y. Jiang</strong>, R. Yan, B. Yuan</div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">ICML 2024</div>
+        <div class="pub-title">HexGen: Generative Inference of Foundation Model over Heterogeneous Decentralized Environment</div>
+        <div class="pub-authors"><strong>Y. Jiang</strong>, R. Yan, X. Yao, Y. Zhou, B. Chen, B. Yuan</div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2311.11514.pdf" target="_blank">Paper</a>
+          <a href="https://github.com/Relaxed-System-Lab/HexGen/tree/main" target="_blank">Code</a>
+        </div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">VLDB 2023</div>
+        <div class="pub-title">Galvatron: Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism</div>
+        <div class="pub-authors">X. Miao*, Y. Wang*, <strong>Y. Jiang</strong>*, C. Shi, X. Nie, H. Zhang, B. Cui</div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2211.13878.pdf" target="_blank">Paper</a>
+          <a href="https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron" target="_blank">Code</a>
+        </div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-venue">IJCAI 2023</div>
+        <div class="pub-title">OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning</div>
+        <div class="pub-authors"><strong>Y. Jiang</strong>, F. Fu, X. Miao, X. Nie, B. Cui</div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2209.13258.pdf" target="_blank">Paper</a>
+          <a href="https://github.com/Youhe-Jiang/IJCAI2023-OptimalShardedDataParallel" target="_blank">Code</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="exp-grid">
+      <div class="exp-card">
+        <div class="exp-date">2024 &ndash; now</div>
+        <div class="exp-info">
+          <h3>University of Cambridge</h3>
+          <p>PhD in Computer Science &middot; Advisor: Dr. Eiko Yoneki</p>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-date">2023</div>
+        <div class="exp-info">
+          <h3>HKUST</h3>
+          <p>Research Assistant &middot; Advisor: Dr. Binhang Yuan</p>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-date">2022</div>
+        <div class="exp-info">
+          <h3>Peking University</h3>
+          <p>Research Assistant &middot; Advisor: Dr. Bin Cui</p>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-date">2021 &ndash; 2022</div>
+        <div class="exp-info">
+          <h3>Tsinghua University &middot; Kuaishou &middot; Baidu</h3>
+          <p>R&amp;D Intern &middot; Distributed training systems and deep learning infrastructure</p>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-date">2017 &ndash; 2021</div>
+        <div class="exp-info">
+          <h3>Xidian University</h3>
+          <p>BEng in Telecommunication Engineering &middot; Advisor: Dr. Huaxi Gu</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Open Source</h2>
+    <div class="project-grid">
+      <a class="project-card" href="https://github.com/Youhe-Jiang" target="_blank">
+        <div class="role">Lead</div>
+        <h3>Parallax</h3>
+        <p>Decentralized LLM serving framework for efficient inference across distributed, heterogeneous environments.</p>
+      </a>
+      <a class="project-card" href="https://github.com/Youhe-Jiang" target="_blank">
+        <div class="role">Lead</div>
+        <h3>FSA</h3>
+        <p>Efficient native sparse attention kernel for improved sparse-attention model execution.</p>
+      </a>
+      <a class="project-card" href="https://github.com/PKU-DAIR/Hetu/tree/main/tools/Galvatron" target="_blank">
+        <div class="role">Lead</div>
+        <h3>Galvatron</h3>
+        <p>Automatic distributed training system for large transformers with multi-GPU parallelism.</p>
+      </a>
+      <a class="project-card" href="https://github.com/PKU-DAIR/Hetu" target="_blank">
+        <div class="role">Contributor</div>
+        <h3>Hetu</h3>
+        <p>High-performance distributed deep learning system for large-scale training.</p>
+      </a>
+      <a class="project-card" href="https://github.com/InternLM/lmdeploy" target="_blank">
+        <div class="role">Contributor</div>
+        <h3>LMDeploy</h3>
+        <p>Toolkit for compressing, deploying, and serving LLMs with mixed-precision inference.</p>
+      </a>
+      <a class="project-card" href="https://github.com/BaguaSys/bagua" target="_blank">
+        <div class="role">Contributor</div>
+        <h3>Bagua</h3>
+        <p>PyTorch training acceleration framework for efficient large-scale distributed learning.</p>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Youhe Jiang &middot; <a href="mailto:yj367@cam.ac.uk">yj367@cam.ac.uk</a> &middot; Cambridge, UK</p>
+</footer>
+
+</body>
+</html>
