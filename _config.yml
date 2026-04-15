@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Cambridgeshire"
-title                    : "Home Page"
+locale                   : "en-GB"
+title                    : "Youhe Jiang"
 title_separator          : "-"
 name                     : &name "Youhe Jiang"
 # description              : &description "Master student in the database group at Tsinghua University, supervised by Prof.[Guoliang Li](http://dbgroup.cs.tsinghua.edu.cn/ligl/index.html)."
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Youhe Jiang"
   avatar           : "youhe.jpeg"
-  # bio              : "Master student in the database group at Tsinghua University, supervised by Prof.[Guoliang Li]."
-  location         : "Cambridgeshire"
+  bio              : "PhD student at Cambridge working on efficient systems for large-scale AI training and LLM serving."
+  location         : "Cambridge, UK"
   # employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "https://scholar.google.com.hk/citations?user=J3NTnmEAAAAJ&hl=zh-CN"
-  email            : "youhejiang AT gmail.com"
+  email            : "yj367@cam.ac.uk"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   # uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   # instagram        : "jt_zhang6"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  # linkedin         : "jintao-zhang-57637a272"
+  linkedin         : "youhejiang"
   # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :

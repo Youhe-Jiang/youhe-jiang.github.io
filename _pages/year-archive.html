@@ -1,37 +1,66 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "Beyond Research"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="home-hero home-hero--compact">
+  <p class="home-hero__eyebrow">Beyond research</p>
+  <h1 class="page__title">What keeps me balanced outside systems work.</h1>
+  <p class="home-hero__lead">
+    Research takes a lot of concentration, but I do not want life to collapse into papers, experiments, and cluster logs.
+    Movement, rhythm, and physical training matter to me because they keep both attention and energy in good shape.
+  </p>
+</section>
 
+<section class="home-grid">
+  <div class="home-card home-card--accent">
+    <p class="home-card__label">Dance</p>
+    <h2>Dance is one of the main ways I reset and connect.</h2>
+    <p>
+      I enjoy dancing not only as personal expression, but also as a way to learn with other people.
+      The social side of movement, timing, and exchange is part of what makes it meaningful to me.
+    </p>
+  </div>
+  <div class="home-card">
+    <p class="home-card__label">Training</p>
+    <h2>Exercise helps me maintain consistency.</h2>
+    <p>
+      I care about staying physically active. Regular exercise gives structure to the week, improves focus,
+      and counterbalances the long stretches of deep technical work that research usually demands.
+    </p>
+  </div>
+  <div class="home-card">
+    <p class="home-card__label">How it connects</p>
+    <p>
+      Outside interests are not separate from research for me. They influence how I think about discipline,
+      iteration, and improving under constraints, which is also how I approach systems work.
+    </p>
+  </div>
+</section>
 
-<p>I absolutely love dancing! 🕺💃 It's my favorite way to express myself. And what's even more exciting for me is engaging in dance communication or dance exchange with others. I find it fascinating to share, learn, and grow together in this beautiful art form.</p>
-
-<video width="240" height="320" controls>
-  <source src="https://github.com/Youhe-Jiang/youhe-jiang.github.io/blob/master/_pages/%E5%8F%8B%E5%92%8C%202023-06-06%2021.48.54.mp4?raw=true" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-<br>
-
-<p>That's not all - I'm also a big fan of exercise! 🏋️‍♂️🤸‍♀️ Keeping active and staying fit is a part of my daily routine. It not only makes me feel good physically, but also boosts my mood and energy levels.</p>
-
-<video width="240" height="320" controls>
-  <source src="https://github.com/Youhe-Jiang/youhe-jiang.github.io/blob/master/_pages/%E5%8F%8B%E5%92%8C%202023-06-06%2023.23.08.mp4?raw=true" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
+<section class="home-section">
+  <div class="home-section__header">
+    <p class="home-card__label">Short clips</p>
+    <h2>A couple of moments outside the lab</h2>
+  </div>
+  <div class="media-grid">
+    <div class="media-card">
+      <video controls preload="metadata">
+        <source src="https://github.com/Youhe-Jiang/youhe-jiang.github.io/blob/master/_pages/%E5%8F%8B%E5%92%8C%202023-06-06%2021.48.54.mp4?raw=true" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>A short dance clip.</p>
+    </div>
+    <div class="media-card">
+      <video controls preload="metadata">
+        <source src="https://github.com/Youhe-Jiang/youhe-jiang.github.io/blob/master/_pages/%E5%8F%8B%E5%92%8C%202023-06-06%2023.23.08.mp4?raw=true" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>A snapshot from training and exercise.</p>
+    </div>
+  </div>
+</section>
